@@ -1,5 +1,7 @@
 {
   "name": "FirebaseCRUD",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
