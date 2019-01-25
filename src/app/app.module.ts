@@ -10,6 +10,8 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { Firebase } from '@ionic-native/firebase/ngx';
 
+import {FcmService} from './fcm.service';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -18,6 +20,7 @@ import { Firebase } from '@ionic-native/firebase/ngx';
     StatusBar,
     SplashScreen,
     Firebase,
+    FcmService,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
