@@ -11,8 +11,8 @@ import {AppRoutingModule} from './app-routing.module';
 
 import {Firebase} from '@ionic-native/firebase/ngx';
 import {FcmService} from './fcm.service';
-import {AngularFireModule} from 'angularfire2';
-import {AngularFirestoreModule} from 'angularfire2/firestore';
+import {AngularFireModule} from '@angular/fire';
+import {AngularFirestoreModule} from '@angular/fire/firestore';
 import {environment} from "../environments/environment";
 
 @NgModule({
